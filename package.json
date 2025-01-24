@@ -1,6 +1,10 @@
 {
   "name": "chart-library-workspace",
   "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SanjayPuttaraju/chart-library-workspace.git"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,7 +12,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^19.1.0",
     "@angular/common": "^19.1.0",
