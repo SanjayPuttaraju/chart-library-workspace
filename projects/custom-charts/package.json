@@ -1,0 +1,17 @@
+{
+  "name": "custom-charts",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "ng build custom-charts",
+    "pack": "npm pack dist/custom-charts"
+  },
+  "peerDependencies": {
+    "@angular/common": "^19.1.0",
+    "@angular/core": "^19.1.0",
+    "chart.js": "^4.4.7",
+    "ng2-charts": "^4.1.1",
+    "tslib": "^2.3.0"
+  },
+  "dependencies": {},
+  "sideEffects": false
+}
